@@ -1,0 +1,39 @@
+/*
+li.css('float','left');
+li.css('border', '3px solid black');*/
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.characters {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+.grid-dv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid {
+  width: 327px;
+}
+
+
+.box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  list-style: none;
+  background-color: grey;
+  border: 3px solid black;
+}
+
+.box:hover {
+  background-color: yellow;
+}
